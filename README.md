@@ -14,7 +14,7 @@ This is software to propose places where one might introduce N-linked glycosylat
 
 hydrophobic-hydrophobic-hydrophilic-hydrophobic-hydrophilic-hydrophobic
 
-and replace the hydrophilic residues with sequon residues asparagine and threonine respectively. Since the match is rarely perfect we score the sites based on the hydropathy index found in A Simple Method for Displaying the Hydropathic Character of a Protein by Jack Kyte and Russell F. Doolittle doi:10.1016/0022-2836(82)90515-0.
+and replace the hydrophilic residues with sequon residues asparagine and threonine respectively. Since the match is rarely perfect we score the sites based on a well-known hydropathy index found in (doi:10.1016/0022-2836(82)90515-0).
 
 If the proposed site is not on a beta sheet, the algorithm looks for solvent accessible pairs where the three residues including the pair and the residue in between them are maximally hydrophilic.
 
