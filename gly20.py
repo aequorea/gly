@@ -158,9 +158,7 @@ def show_sites(common, name, seq, allowed, allowed2):
 		common.update(glyco)
 	else:
 		common = common & set(glyco)			# intersection
-		
-	scommon = sorted(common)
-	return scommon
+	return common
 	
 # main
 
@@ -194,15 +192,15 @@ for chain in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
 	coil_common = show_sites(coil_common, "random coil", sequence, pairs, coil)
 	
 print("\nThere are {} common potential beta sheet glycosylation sites:".format(len(sheet_common)))
-show_pymol_list(list(sheet_common))
+show_pymol_list(sorted(list(sheet_common)))
 
 print("\nThere are {} common potential alpha helix glycosylation sites:".format(len(helix_common)))
-show_pymol_list(list(helix_common))
+show_pymol_list(sorted(list(helix_common)))
 
 print("\nThere are {} common potential random coil glycosylation sites:".format(len(coil_common)))
-show_pymol_list(list(coil_common))
+show_pymol_list(sorted(list(coil_common)))
 
-total_common = sheet_common + helix_common + coil_common
+total_common = sheet_common | helix_common | coil_common
 stotal_common = sorted(list(total_common))
 
 print("\nThere are {} common potential glycosylation sites:".format(len(stotal_common)))
