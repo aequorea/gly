@@ -3,7 +3,10 @@
 N-linked glycosylation software
 
 <p align="center">
-  <img src="Variety_of_glycans.svg.png" />
+  <img src="Variety_of_glycans.svg.png" width="500">
+  
+<p align="center">  Varieties of glycosylation patterns --
+  Image by Dna 621 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=31825161
 </p>
 
 Many protein based drugs are pegylated. The purpose of pegylation is to influence how long the drug stays in circulation and to influence its immunogenicity. The influence on immunogenicity is rarely perfect. In the case of peg-asparaginase, which is a treatment for leukemia, there is a 10-20% chance of an allergic reaction despite the pegylation. This software was made to facilitate the exploration of the notion of whether or not PEG can be replaced with a designed glycan coat to reduce immunogenicity of a drug molecule while at the same time providing adaquate control of a drug's clearance time.
