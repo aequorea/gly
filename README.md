@@ -21,7 +21,7 @@ The program takes PDB files as inputs. There is a file with the complete structu
 This software has been tested against a number of data sets. See for example:
 </p>
 <p>
-Glycosylating erythropoetin (https://github.com/aequorea/1cn4) 83% accurate.
-Glycosylating interferon alpha (https://github.com/aequorea/1itf) 71% accurate.
-Glycosylating YFP (https://github.com/aequorea/1yfpA) 100% accurate.
+* Glycosylating erythropoetin (https://github.com/aequorea/1cn4) 83% accurate.
+* Glycosylating interferon alpha (https://github.com/aequorea/1itf) 71% accurate.
+* Glycosylating YFP (https://github.com/aequorea/1yfpA) 100% accurate.
 </p>
