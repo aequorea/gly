@@ -22,10 +22,6 @@ This software has been tested against a number of data sets. See for example:
 </p>
 <p>
 Glycosylating erythropoetin (https://github.com/aequorea/1cn4) 83% accurate.
-</p>
-<p>
 Glycosylating interferon alpha (https://github.com/aequorea/1itf) 71% accurate.
-</p>
-<p>
 Glycosylating YFP (https://github.com/aequorea/1yfpA) 100% accurate.
 </p>
