@@ -21,7 +21,14 @@ The program takes PDB files as inputs. There is a file with the complete structu
 This software has been tested against a number of data sets. See for example:
 </p>
 <p>
-1. Glycosylating erythropoetin (https://github.com/aequorea/1cn4) 83% accurate.
-1. Glycosylating interferon alpha (https://github.com/aequorea/1itf) 71% accurate.
-1. Glycosylating YFP (https://github.com/aequorea/1yfpA) 100% accurate.
+Glycosylating erythropoetin (https://github.com/aequorea/1cn4) 83% accurate.
+</p>
+<p>
+Glycosylating interferon alpha (https://github.com/aequorea/1itf) 71% accurate.
+</p>
+<p>
+Glycosylating YFP (https://github.com/aequorea/1yfpA) 100% accurate.
+</p>
+<p>
+Since predictions are not 100% accurate in all cases, the best glycosylation sites should be worked out experimentally. Look for the sites that are efficiently expressed and efficiently glycosylated. In other words, when you express a singly glycosylated version of your protein and do a western or SDS page, look for "bright" bands where the majority of the protein is seen to be in the glycosylated form with small amounts of unglycosylated protein. When expressing doubly or higher numbers of glycans, look for the combinations that give the maximum amount of glycans. The appearance of unglycosylated protein when expressing multiple glycans is undesireable and should be avoided.
 </p>
