@@ -33,5 +33,5 @@ Glycosylating YFP (https://github.com/aequorea/1yfpA) 100% accurate.
 Since predictions are not 100% accurate in all cases, the best glycosylation sites should be worked out experimentally. Look for the sites that are efficiently expressed and efficiently glycosylated. In other words, when you express a singly glycosylated version of your protein and do a western or SDS page, look for "bright" bands where the majority of the protein is seen to be in the glycosylated form with small amounts of unglycosylated protein. When expressing protein with two or more glycans, look for the combinations that give the maximum amount of glycans. The appearance of unglycosylated protein when expressing multiple glycans is undesireable and should be avoided.
 </p>
 <p>
-An example with the analysis of the western blot may be found in the glycosylating interferon alpha data set (https://github.com/aequorea/1itf).
+An example with the analysis of a western blot may be found in the glycosylating interferon alpha data set (https://github.com/aequorea/1itf).
 </p>
