@@ -17,3 +17,5 @@ The algorithm implements a simple heuristic. If we want to mutate a protein resi
 <p>
 The program takes PDB files as inputs. There is a file with the complete structure, a file with solvent exposed atoms, a file with beta sheet residues and a file with alpha helix residues. I am currently using the pymol plugin findSurfaceResidues to get the solvent exposed atoms and pymol itself to get the secondary structure files.
 </p>
+<p>
+This software has been tested against a number of data sets. For example (aequorea/1cn4).
