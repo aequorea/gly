@@ -19,5 +19,5 @@ The program takes PDB files as inputs. There is a file with the complete structu
 </p>
 <p>
 This software has been tested against a number of data sets. For example 
-[1cn4](aequorea/1cn4)
+[1cn4](https://github.com/aequorea/1cn4)
 </p>
