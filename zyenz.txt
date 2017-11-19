@@ -1,0 +1,26 @@
+
+
+Image Credit
+
+This is software to propose places where one might introduce N-linked glycosylation sites into an existing protein with a minimal disturbance to its structure. The idea is as much as possible to replace like with like. Asparagine (N) and serine or threonine (S/T) are hydrophilic so we want to replace residues that are hydrophilic. Since the glycan that gets attached at the asparagine is large and solvated, we want the attachment point to be solvent accessible. Otherwise the attached glycan might point to the protein's core preventing it from folding properly. Since the enzyme that attaches the glycan to the asparagine likely needs to also have access to the serine or threonine that is two residues downstream from the asparagine, we want the residue two residues downstream from the residue that will get the asparagine to also be solvent accessible.
+
+
+The algorithm looks for solvent accessible pairs and takes PDB files as inputs. There is a file with the complete structure, a file with solvent exposed atoms, a file with beta sheet residues and a file with alpha helix residues. I am currently using the pymol plugin findSurfaceResidues to get the solvent exposed atoms and pymol itself to get the secondary structure files.
+
+
+The current version of the software may be found here:
+
+
+https://github.com/aequorea/gly
+
+
+A sample design showing potential glycosylation sites on a potential theraputic interferon alpha is shown here:
+
+
+https://github.com/aequorea/1itf
+
+
+If you know of any references to other glycodesign algorithms, please leave a comment. Thanks!
+
+
+(12/14/16 - 11/19/17)
